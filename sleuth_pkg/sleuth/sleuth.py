@@ -562,7 +562,7 @@ class SimplePredicate(object):
             return listMatch
         elif isinstance(flow, dict):
             # print('dict flow: ' + str(flow))
-            # x = flow.values()[0]
+
             x = list(flow.values())[0]
             return self.eval(x)
 

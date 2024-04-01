@@ -47,6 +47,7 @@ from .sleuth import DictStreamProcessor
 from .sleuth import DictStreamFilterIterator
 from .sleuth import SleuthPredicate
 
+
 class FlowIteratorFromFile(DictStreamIteratorFromFile):
     """
     Create a new DictIterator instance from the given input file.
